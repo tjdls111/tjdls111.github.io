@@ -1,0 +1,48 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/git,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=git,visualstudiocode
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+.vscode/*.code-snippets
+
+# Ignore code-workspaces
+*.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/git,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/git,visualstudiocode # Edit at https://www.toptal.com/developers/gitignore?templates=git,visualstudiocode ### Git ### # Created by git for backups. To disable backups in Git: # $ git config --global mergetool.keepBackup false *.orig # Created by git when using merge tools for conflicts *.BACKUP.* *.BASE.* *.LOCAL.* *.REMOTE.* *_BACKUP_*.txt *_BASE_*.txt *_LOCAL_*.txt *_REMOTE_*.txt ### VisualStudioCode ### .vscode/* !.vscode/settings.json !.vscode/tasks.json !.vscode/launch.json !.vscode/extensions.json !.vscode/*.code-snippets # Local History for Visual Studio Code .history/ # Built Visual Studio Code Extensions *.vsix ### VisualStudioCode Patch ### # Ignore all local history of files .history .ionide # Support for Project snippet scope .vscode/*.code-snippets # Ignore code-workspaces *.code-workspace # End of https://www.toptal.com/developers/gitignore/api/git,visualstudiocode Eng
+
+# 생성: https://www.toptal.com/developers/gitignore/api/git,visualstudiocode # https://www.toptal.com/developers/gitignore?templates=git,visualstudiocode에서 편집 ### 힘내 ### # 백업을 위해 git에 의해 생성되었습니다. Git에서 백업을 비활성화하려면: # $ git config --global mergetool.keepBackup false *.orig # 충돌에 대해 병합 도구를 사용할 때 git에 의해 생성됨 *.지원.* *.베이스.* *.현지.* *.원격.* *_BACKUP_*.txt *_BASE_*.txt *_LOCAL_*.txt *_REMOTE_*.txt ### VisualStudioCode ### .vscode/* !.vscode/settings.json !.vscode/tasks.json !.vscode/launch.json !.vscode/extensions.json !.vscode/*.code-snippets # Visual Studio Code의 로컬 기록 .역사/ # Visual Studio 코드 확장 빌드 *.vsix ### VisualStudioCode 패치 ### # 파일의 모든 로컬 기록 무시 .역사 .이오나이드 # 프로젝트 스니펫 범위 지원 .vscode/*.code-snippets # 코드 작업 공간 무시 *.code-작업 공간 # https://www.toptal.com/developers/gitignore/api/git,visualstudiocode 끝
